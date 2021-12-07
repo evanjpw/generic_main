@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "generic_main"
+version = "0.1.0"
+description = "A universal \"main\" function that does all (most of? some of?) the things!"
+authors = ["Evan Williams <ejw@fig.com>"]
+license = "Unlicense"
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+ConfigArgParse = "^1.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^4.0.1"
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
